@@ -1,6 +1,6 @@
-from re import X
+#from re import X
 import pandas as pd
-import sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split
 
 nyc = pd.read_csv("ave_hi_nyc_jan_1895-2018.csv")
 
